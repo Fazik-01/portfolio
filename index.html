@@ -4,22 +4,33 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="Bu mening birinchi portfolio sahifam" />
-    <link rel="stylesheet" href="ps.css"/>
+    <link rel="stylesheet" href="ps.css" />
     <title>My First Portfolio</title>
   </head>
   <body>
     <header id="hero">
       <!-- nav starts -->
-      <nav>
-        <div class="name">My First Portfolio</div>
-        <ul>
-          <li><a href="#hero">HERO</a></li>
-          <li><a href="#about">ABOUT</a></li>
-          <!-- <li><a href="#project">PROJECTS</a></li> -->
-          <li><a href="#contact">CONTACT</a></li>
-        </ul>
-        <i>=</i>
-      </nav>
+      <div class="navbar">
+        <nav>
+          <div class="name">My First <span>Portfolio</span></div>
+          <ul>
+            <li><a href="#hero">HERO</a></li>
+            <li><a href="#about">ABOUT</a></li>
+            <!-- <li><a href="#project">PROJECTS</a></li> -->
+            <li><a href="#contact">CONTACT</a></li>
+          </ul>
+        </nav>
+        <input type="checkbox" id="checked">
+        <label for="checked" class="menu">≡</label>
+        <div class="r-nav" id="nav-box">
+          <ul>
+            <li><a href="#hero">HERO</a></li>
+            <li><a href="#about">ABOUT</a></li>
+            <!-- <li><a href="#project">PROJECTS</a></li> -->
+            <li><a href="#contact">CONTACT</a></li>
+          </ul>
+        </div>
+      </div>
       <!-- nav ends -->
 
       <!-- header content -->
@@ -78,7 +89,7 @@
           <h2>Email</h2>
           <p>fazliddin4th@gmail.com</p>
         </div>
-         <div class="contact-card">
+        <div class="contact-card">
           <h2>Telegram</h2>
           <p>@Fazliddin_xabibullayev</p>
         </div>
