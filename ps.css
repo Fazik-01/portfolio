@@ -231,6 +231,12 @@ footer {
   html {
     font-size: 12px;
   }
+  nav{
+    padding-bottom: 2%;
+  }
+  nav .name{
+    font-size: 4rem;
+  }
   nav ul {
     display: none;
   }
@@ -240,7 +246,7 @@ footer {
     position: fixed;
     z-index: 4;
     right:4%;
-    top: -1.4%;
+    top: 0;
     font-size: 4rem;
   }
   .navbar .r-nav ul li label{
